@@ -143,3 +143,50 @@ body {
     margin-top: 16px;
     margin-bottom: 32px;
 }
+
+/* developer inspiration styles */
+.inspiration {
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    margin-top: 90px;
+    border: 2px solid tomato;
+}
+
+.inspiration-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 144px 48px 144px;
+    gap: 24px;
+}
+
+.inspiration-detail>h1 {
+    width: 852px;
+    height: 37px;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.inspiration-detail>p {
+    text-align: center;
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.youtube-video {
+    width: 1140px;
+    height: 614px;
+    margin: 32px auto;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
