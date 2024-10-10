@@ -384,4 +384,7 @@ body {
     font-weight: 600
 }
 
-.footer-icon {}
+.footer-icon {
+    display: flex;
+    gap: 25px;
+}
