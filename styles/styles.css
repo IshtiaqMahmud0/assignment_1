@@ -215,7 +215,7 @@ body {
 }
 
 .ct-details>h1 {
-    /* color: rgb(13, 19, 33); */
+    color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
@@ -234,7 +234,7 @@ body {
 .ct-boxes-container {
     width: 1140px;
     height: 299px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     gap: 24px;
 }
@@ -289,8 +289,77 @@ body {
     font-size: 16px;
     font-weight: 700;
 }
-.internal-gaping{
+
+.internal-gaping {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+/* support styles */
+.feedback-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 0 180px;
+}
+.support {
+    width: 1044px;
+    height: 185px;
+    padding: 64px 48px 64px 48px;
+    /* border: 2px solid salmon; */
+    margin: 0 auto;
+    border-radius: 16px;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: 1144px 317px;
+}
+
+.support-heading {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.description {
+    width: 730px;
+    height: 104px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description>p {
+    width: 606px;
+    height: 52px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.submit-btn {
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.feedback-area {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    padding: 19px 20px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
 }
